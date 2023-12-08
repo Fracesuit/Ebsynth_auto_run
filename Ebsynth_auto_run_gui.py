@@ -16,7 +16,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor
 import configparser
 
-project_directory = os.getcwd()
+project_directory = "C:\\ebsynth\\video"#os.getcwd()
 original_directory = project_directory
 ebs_files = []
 pause_event = threading.Event()
