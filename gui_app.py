@@ -226,7 +226,7 @@ frame.pack(padx=10, pady=10)
 mask_control_var = tk.BooleanVar(value=True)
 max_workers_var = tk.IntVar(value=3)
 wait_exit_var = tk.BooleanVar(value=False)
-directory_var = tk.StringVar(value=Ebsynth_auto_run_gui.project_directory)
+directory_var = tk.StringVar(value="C:\ebsynth\video")
 
 # Mask Control按钮
 mask_control_btn = tk.Button(frame, text='Mask Control: ON' if mask_control_var.get() else 'Mask Control: OFF',
